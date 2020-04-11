@@ -5,8 +5,8 @@ import Aux from '../../hoc/Aux'
 const burger = (props) =>{
         return (
             <Aux>
-                <BurgerIngredient/>
-                <BurgerIngredient/>
+                <BurgerIngredient type='meat'/>
+                <BurgerIngredient type='cheese'/>
             </Aux>
         )
 };
