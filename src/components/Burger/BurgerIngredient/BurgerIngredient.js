@@ -41,7 +41,7 @@ const burgerIngredient = (props) => {
     }
     return (
         <Aux>
-            <p>{props.type}</p>
+            {ingredient}
         </Aux>
     )
 };
